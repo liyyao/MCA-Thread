@@ -6,7 +6,7 @@ import util.SleepHelper;
  * interrupt 与sleep() wait() join()
  * 当调用sleep()时，再调用interrupt，sleep()会抛出InterruptedException异常
  */
-public class T06_Interrupt_and_sleep {
+public class T04_Interrupt_and_sleep {
 
     public static void main(String[] args) {
         Thread t = new Thread(() -> {

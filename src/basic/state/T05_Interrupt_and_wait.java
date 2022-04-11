@@ -2,7 +2,7 @@ package basic.state;
 
 import util.SleepHelper;
 
-public class T07_Interrupt_and_wait {
+public class T05_Interrupt_and_wait {
 
     private static Object o = new Object();
 

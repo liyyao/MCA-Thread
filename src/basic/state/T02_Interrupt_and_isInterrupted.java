@@ -6,7 +6,7 @@ import util.SleepHelper;
  * interrupt() 与 isInterrupted()
  * 设置标志位 + 查询标志位
  */
-public class T04_Interrupt_and_isInterrupted {
+public class T02_Interrupt_and_isInterrupted {
 
     public static void main(String[] args) {
         Thread t = new Thread(() -> {

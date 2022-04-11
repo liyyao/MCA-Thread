@@ -4,7 +4,7 @@ import util.SleepHelper;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-public class T10_Interrupt_and_lockInterruptibly {
+public class T08_Interrupt_and_lockInterruptibly {
 
     private static ReentrantLock lock = new ReentrantLock();
 

@@ -5,7 +5,7 @@ import util.SleepHelper;
 /**
  * interrupt() 与 interrupted()
  */
-public class T05_Interrupt_and_interrupted {
+public class T03_Interrupt_and_interrupted {
 
     public static void main(String[] args) {
         Thread t = new Thread(() -> {

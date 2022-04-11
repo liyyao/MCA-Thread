@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class T03_ThreadState {
+public class T01_ThreadState {
 
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
