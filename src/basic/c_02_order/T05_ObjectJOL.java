@@ -20,7 +20,9 @@ public class T05_ObjectJOL {
 
     public static void main(String[] args) {
         T o = new T();
-        String s = ClassLayout.parseInstance(o).toPrintable();
-        System.out.println(s);
+        synchronized (o) {
+            String s = ClassLayout.parseInstance(o).toPrintable();
+            System.out.println(s);
+        }
     }
 }
